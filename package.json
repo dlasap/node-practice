@@ -1,0 +1,18 @@
+{
+  "name": "practice-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc",
+    "start:dev": "tsc -w",
+    "dev:start": "npm run start --watch && nodemon build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/node": "^17.0.32"
+  }
+}
